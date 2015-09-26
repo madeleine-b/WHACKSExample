@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "WHACKS Example",
+  "description": "This example shows WHACK-ers how to make the skeleton of a Chrome extension.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
