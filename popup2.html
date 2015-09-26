@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<style>
+			h1 {
+				color: blue;
+			}
+			body {
+				margin: 10 10 10 10;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 style="color:blue;">Hello world!</h1>
+		<div align="center">
+      		<label><button id="console_msg">Click me!</button></label>
+    	</div>
+
+    	<script type="text/javascript">
+    		message_button = document.getElementById("console_msg");
+    		message_button.addEventListener('click', function() {
+    			console.log("Here's a message in the console! See if you can find me! :)");
+    		});
+    	</script>
+
+	</body>
+
+</html>
